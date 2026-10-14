@@ -27,8 +27,7 @@ settings (the `bots` table + each bot's sandbox `MEMORY.md` scratchpad).
    the chat; messages persist regardless via the chat transcript.
 
 Apply schema changes with `npm run db:push`. Tests: `npm test` (unit + real
-database; LLM pipeline tests run when the gateway key is present). Delete a
-memory via the `deleteMemoryAction` server action (`actions/memory.ts`).
+database; LLM pipeline tests run when the gateway key is present).
 
 
 ## Adding components
